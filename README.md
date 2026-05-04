@@ -39,7 +39,6 @@ This project demonstrates a **wireless real-time running text display** using an
 * VCC → 5V
 * GND → GND
 * TX → D10
-* RX → D11 *(use resistor/voltage divider recommended)*
 
 ---
 
@@ -83,7 +82,7 @@ The Arduino receives text data via Bluetooth from your phone. The message is pro
 
 ## 📌 Notes
 
-* Ensure common **GND connection** for all components
+* Ensure common 5 volt for all components
 * Use proper resistor or voltage divider for HC-05 RX pin
 * Avoid powering too many modules from Arduino 5V
 
